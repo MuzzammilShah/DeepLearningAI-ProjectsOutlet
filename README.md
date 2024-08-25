@@ -1,3 +1,5 @@
-### **These are a bunch of useful prompts given as an example in the Prompt Engineering short course on DeepLearning.ai. Keeping these for future reference as these are some very good templates to enhance the prompts.**
+### Hi! This is my project outlet for anything that I am learning from DeepLearning.AI's short courses. 
 
-Copy the prompts and update them according to use.
+I am keeping these here as my working practise and the final outputs obtained, so that I can comeback anytime in the future to refer these. Will also be updating this anytime I have attempted something new from them.
+
+Happy coding!
