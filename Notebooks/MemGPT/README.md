@@ -4,7 +4,7 @@ An LLM's input context window has limited space. Using a longer input context al
 \
 In the innovative paper MemGPT: Towards LLMs as Operating Systems, its authors (which include the instructors) proposed using an LLM agent to manage this context window. Their system uses a large persistent memory that stores everything that could be included in the input context, and  an agent decides   what is actually included. \
 \
-Take the example of building a chatbot that needs to remember what's been said earlier in a conversation (perhaps over many days of interaction with a user). As the conversation's length grows, the memory management agent will move information from the input context to a persistent searchable database; summarize information to keep relevant facts in the input context; and restore relevant conversation elements from further back in time. This allows a chatbot to keep what's currently most relevant in its input context memory to generate the next response. \
+Take the example of building a chatbot that needs to remember what's been said earlier in a conversation (perhaps over many days of interaction with a user). As the conversation's length grows, the memory management agent will move information from the input context to a persistent searchable database; summarize information to keep relevant facts in the input context; and restore relevant conversation elements from further back in time. This allows a chatbot to keep what's currently most relevant in its input context memory to generate the next response.
 
 ---------
 #### Notebooks contents:
