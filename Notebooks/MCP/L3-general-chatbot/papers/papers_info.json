@@ -1,0 +1,67 @@
+{
+  "1706.03762v7": {
+    "title": "Attention Is All You Need",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Lukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "summary": "The dominant sequence transduction models are based on complex recurrent or\nconvolutional neural networks in an encoder-decoder configuration. The best\nperforming models also connect the encoder and decoder through an attention\nmechanism. We propose a new simple network architecture, the Transformer, based\nsolely on attention mechanisms, dispensing with recurrence and convolutions\nentirely. Experiments on two machine translation tasks show these models to be\nsuperior in quality while being more parallelizable and requiring significantly\nless time to train. Our model achieves 28.4 BLEU on the WMT 2014\nEnglish-to-German translation task, improving over the existing best results,\nincluding ensembles by over 2 BLEU. On the WMT 2014 English-to-French\ntranslation task, our model establishes a new single-model state-of-the-art\nBLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction\nof the training costs of the best models from the literature. We show that the\nTransformer generalizes well to other tasks by applying it successfully to\nEnglish constituency parsing both with large and limited training data.",
+    "pdf_url": "http://arxiv.org/pdf/1706.03762v7",
+    "published": "2017-06-12"
+  },
+  "2211.00091v1": {
+    "title": "Road Damages Detection and Classification with YOLOv7",
+    "authors": [
+      "Vung Pham",
+      "Du Nguyen",
+      "Christopher Donan"
+    ],
+    "summary": "Maintaining the roadway infrastructure is one of the essential factors in\nenabling a safe, economic, and sustainable transportation system. Manual\nroadway damage data collection is laborious and unsafe for humans to perform.\nThis area is poised to benefit from the rapid advance and diffusion of\nartificial intelligence technologies. Specifically, deep learning advancements\nenable the detection of road damages automatically from the collected road\nimages. This work proposes to collect and label road damage data using Google\nStreet View and use YOLOv7 (You Only Look Once version 7) together with\ncoordinate attention and related accuracy fine-tuning techniques such as label\nsmoothing and ensemble method to train deep learning models for automatic road\ndamage detection and classification. The proposed approaches are applied to the\nCrowdsensing-based Road Damage Detection Challenge (CRDDC2022), IEEE BigData\n2022. The results show that the data collection from Google Street View is\nefficient, and the proposed deep learning approach results in F1 scores of\n81.7% on the road damage data collected from the United States using Google\nStreet View and 74.1% on all test images of this dataset.",
+    "pdf_url": "http://arxiv.org/pdf/2211.00091v1",
+    "published": "2022-10-31"
+  },
+  "2006.06835v3": {
+    "title": "Adaptive Gradient Methods Converge Faster with Over-Parameterization (but you should do a line-search)",
+    "authors": [
+      "Sharan Vaswani",
+      "Issam Laradji",
+      "Frederik Kunstner",
+      "Si Yi Meng",
+      "Mark Schmidt",
+      "Simon Lacoste-Julien"
+    ],
+    "summary": "Adaptive gradient methods are typically used for training over-parameterized\nmodels. To better understand their behaviour, we study a simplistic setting --\nsmooth, convex losses with models over-parameterized enough to interpolate the\ndata. In this setting, we prove that AMSGrad with constant step-size and\nmomentum converges to the minimizer at a faster $O(1/T)$ rate. When\ninterpolation is only approximately satisfied, constant step-size AMSGrad\nconverges to a neighbourhood of the solution at the same rate, while AdaGrad is\nrobust to the violation of interpolation. However, even for simple convex\nproblems satisfying interpolation, the empirical performance of both methods\nheavily depends on the step-size and requires tuning, questioning their\nadaptivity. We alleviate this problem by automatically determining the\nstep-size using stochastic line-search or Polyak step-sizes. With these\ntechniques, we prove that both AdaGrad and AMSGrad retain their convergence\nguarantees, without needing to know problem-dependent constants. Empirically,\nwe demonstrate that these techniques improve the convergence and generalization\nof adaptive gradient methods across tasks, from binary classification with\nkernel mappings to multi-class classification with deep networks.",
+    "pdf_url": "http://arxiv.org/pdf/2006.06835v3",
+    "published": "2020-06-11"
+  },
+  "1604.08171v1": {
+    "title": "Adaptive Influence Maximization in Social Networks: Why Commit when You can Adapt?",
+    "authors": [
+      "Sharan Vaswani",
+      "Laks V. S. Lakshmanan"
+    ],
+    "summary": "Most previous work on influence maximization in social networks is limited to\nthe non-adaptive setting in which the marketer is supposed to select all of the\nseed users, to give free samples or discounts to, up front. A disadvantage of\nthis setting is that the marketer is forced to select all the seeds based\nsolely on a diffusion model. If some of the selected seeds do not perform well,\nthere is no opportunity to course-correct. A more practical setting is the\nadaptive setting in which the marketer initially selects a batch of users and\nobserves how well seeding those users leads to a diffusion of product\nadoptions. Based on this market feedback, she formulates a policy for choosing\nthe remaining seeds. In this paper, we study adaptive offline strategies for\ntwo problems: (a) MAXSPREAD -- given a budget on number of seeds and a time\nhorizon, maximize the spread of influence and (b) MINTSS -- given a time\nhorizon and an expected number of target users to be influenced, minimize the\nnumber of seeds that will be required. In particular, we present theoretical\nbounds and empirical results for an adaptive strategy and quantify its\npractical benefit over the non-adaptive strategy. We evaluate adaptive and\nnon-adaptive policies on three real data sets. We conclude that while benefit\nof going adaptive for the MAXSPREAD problem is modest, adaptive policies lead\nto significant savings for the MINTSS problem.",
+    "pdf_url": "http://arxiv.org/pdf/1604.08171v1",
+    "published": "2016-04-27"
+  },
+  "1906.05909v1": {
+    "title": "Stand-Alone Self-Attention in Vision Models",
+    "authors": [
+      "Prajit Ramachandran",
+      "Niki Parmar",
+      "Ashish Vaswani",
+      "Irwan Bello",
+      "Anselm Levskaya",
+      "Jonathon Shlens"
+    ],
+    "summary": "Convolutions are a fundamental building block of modern computer vision\nsystems. Recent approaches have argued for going beyond convolutions in order\nto capture long-range dependencies. These efforts focus on augmenting\nconvolutional models with content-based interactions, such as self-attention\nand non-local means, to achieve gains on a number of vision tasks. The natural\nquestion that arises is whether attention can be a stand-alone primitive for\nvision models instead of serving as just an augmentation on top of\nconvolutions. In developing and testing a pure self-attention vision model, we\nverify that self-attention can indeed be an effective stand-alone layer. A\nsimple procedure of replacing all instances of spatial convolutions with a form\nof self-attention applied to ResNet model produces a fully self-attentional\nmodel that outperforms the baseline on ImageNet classification with 12% fewer\nFLOPS and 29% fewer parameters. On COCO object detection, a pure self-attention\nmodel matches the mAP of a baseline RetinaNet while having 39% fewer FLOPS and\n34% fewer parameters. Detailed ablation studies demonstrate that self-attention\nis especially impactful when used in later layers. These results establish that\nstand-alone self-attention is an important addition to the vision\npractitioner's toolbox.",
+    "pdf_url": "http://arxiv.org/pdf/1906.05909v1",
+    "published": "2019-06-13"
+  }
+}
